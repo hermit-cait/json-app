@@ -1,5 +1,5 @@
 async function populate() {
-  const requestURL = "./content.json";
+  const requestURL = "https://raw.githubusercontent.com/hermit-cait/json-app/main/content.json";
   const request = new Request(requestURL);
 
   const response = await fetch(request);
