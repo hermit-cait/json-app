@@ -1,5 +1,22 @@
-{
-  "title": "Welcome to the json app",
-  "subtitle": "This is an object in an array",
-  "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit tempora optio obcaecati blanditiis, dolorum dignissimos aliquam illum itaque ipsum eaque nihil necessitatibus porro sapiente facere vero ducimus nemo? Perferendis doloremque quisquam, repellendus ab eius laudantium odit aut delectus reiciendis provident corporis omnis similique ut eos unde, illo tempora soluta illum repudiandae itaque harum nisi magnam culpa assumenda."
-}
+[
+  {
+    "image": "",
+    "name": "The Song Series",
+    "tech": ["html", "css"],
+    "description": "This is a set of three static webpages made with vanilla CSS that are each inspired by one of my favourite songs. My intention with this project was to practice the mobile first approach to creating responsive websites."
+  },
+
+  {
+    "image": "",
+    "name": "Portfolio",
+    "tech": ["html", "css"],
+    "description": "This is my portfolio webpage built using HTML, CSS and Javascript. My plan was to use a very minimalist design and colour scheme with a little touch of bright green."
+  },
+
+  {
+    "image": "",
+    "name": "Todo App",
+    "tech": ["react"],
+    "description": "This is a to-do list built using React. I made this simple application in order to familiarise myself with a Javascript library. It includes an editing feature, a clear button and I am currently busy integrating localStorage."
+  }
+]
