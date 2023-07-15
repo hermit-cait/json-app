@@ -16,7 +16,7 @@
       },
 
       {
-        "image": "https://raw.githubusercontent.com/hermit-cait/portfolio/main/project2.gif",
+        "image": "https://raw.githubusercontent.com/hermit-cait/portfolio/main/project3.gif",
         "name": "Todo App",
         "tech": ["React"],
         "description": "This is a to-do list built using React. I made this simple application in order to familiarise myself with a Javascript library. It includes an editing feature, a clear button and I am currently busy integrating localStorage."
