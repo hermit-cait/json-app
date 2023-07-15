@@ -1,18 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 body {
-  background-color: tomato;
+  background-color: #f0f0f0;
 }
 
-h1, p {
+h1, h2, p {
   font-family: Lato;
-  letter-spacing: 0.1rem;
 }
 
 h1 {
   font-size: 4rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 0.03rem;
+  text-align: center;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  line-height: 1.8rem;
+  padding: 1rem;
+  margin-block: 0;
+}
+
+.tech {
+  text-align: center;
+}
+
+.mainContent {
+  width: clamp(5%, calc(20rem + 10%), 99%);
+  border: solid 3px #c2c2c2;
+  border-radius: 1rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+img {
+  width: clamp(2rem, calc(10rem + 10%), 90%);
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
