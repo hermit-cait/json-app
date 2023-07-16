@@ -28,7 +28,6 @@ function populateProjects(obj) {
     const myH2 = document.createElement("h2");
     const myPara1 = document.createElement("p");
     const myPara2 = document.createElement("p");
-    const img = document.createElement("img");
     myPara1.className = "tech";
     myPara2.className = "description";
 
