@@ -36,7 +36,7 @@ function populateProjects(obj) {
     myPara1.textContent = `Tech used: ${project.tech}`;
     myPara2.textContent = `Description: ${project.description}`;
 
-    var image = new Image();
+    let image = new Image();
     image.src = project.image;
 
     myArticle.appendChild(myH2);
