@@ -12,9 +12,9 @@ async function populate() {
 
 function populateHeader(obj) {
   const myHeader = document.querySelector("header");
-  const myH1 = document.createElement("h1");
-  myH1.textContent = obj.title;
-  myHeader.appendChild(myH1);
+  const pageTitle = document.createElement("h1");
+  pageTitle.textContent = obj.title;
+  myHeader.appendChild(pageTitle);
 }
 
 function populateProjects(obj) {
@@ -24,26 +24,26 @@ function populateProjects(obj) {
 
   for (const project of projects) {
   
-    const myArticle = document.createElement("article");
-    const myH2 = document.createElement("h2");
-    const myPara1 = document.createElement("p");
-    const myPara2 = document.createElement("p");
-    myPara1.className = "tech";
-    myPara2.className = "description";
+    const card = document.createElement("article");
+    const projectName = document.createElement("h2");
+    const tech = document.createElement("p");
+    const description = document.createElement("p");
+    tech.className = "projectTech";
+    description.className = "description";
 
-    myH2.textContent = project.name;
-    myPara1.textContent = `Tech used: ${project.tech}`;
-    myPara2.textContent = `Description: ${project.description}`;
+    projectName.textContent = project.name;
+    tech.textContent = `Tech used: ${project.tech}`;
+    description.textContent = `Description: ${project.description}`;
 
     let image = new Image();
     image.src = project.image;
 
-    myArticle.appendChild(myH2);
-    myArticle.appendChild(image);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
+    card.appendChild(projectName);
+    card.appendChild(image);
+    card.appendChild(tech);
+    card.appendChild(description);
     
-    section.appendChild(myArticle);
+    section.appendChild(card);
   }
 }
 
